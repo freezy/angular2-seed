@@ -6,4 +6,8 @@ import {Component} from '@angular/core';
   templateUrl: './home.component.pug'
 })
 export class HomeComponent {
+  foo:string;
+  constructor() {
+    this.foo = 'bar';
+  }
 }
